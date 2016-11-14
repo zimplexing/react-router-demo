@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --content-base . --history-api-fallback --color --progress",
+    "app": "webpack-dev-server --config webpack.config.app.js --inline --content-base . --history-api-fallback --color --progress"
   },
   "author": "",
   "license": "ISC",

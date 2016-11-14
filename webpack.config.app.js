@@ -4,7 +4,7 @@ var path = require('path')
 module.exports = {
   devtool: 'inline-source-map',
   entry: {
-    index: path.resolve(__dirname,'index.js'),
+    index: path.resolve(__dirname,'app.js'),
     ventor: ['react','react-dom']
   },
   output: {
