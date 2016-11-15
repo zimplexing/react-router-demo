@@ -12,3 +12,6 @@
 ``` 
     npm run app
 ```
+#### 参考资料
+[react-router](https://github.com/react-guide/react-router-cn)
+[React 进阶: React Router](http://www.zcfy.cc/article/leveling-up-with-react-react-router-1490.html)
